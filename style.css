@@ -42,5 +42,36 @@ input {
     margin-top: 1rem;
     background-color: #13008B;
     color: white;
-    border-radius: 10px;
+    border-radius: 0.625rem;
+    padding-left: 0.625rem;
+}
+
+::placeholder {
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 22rem;
+    padding-top: 0.625rem;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+}
+
+.login {
+    background-color: #00BBFF;
+    width: 6.25rem;
+    height: 3.125rem;
+    border-radius: 1.25rem;
+    border-color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
 }
