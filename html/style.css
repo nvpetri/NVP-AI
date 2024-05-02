@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 5vw;
+    background-color: #839DEB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body {
+    background-color: #214CCE;
+}
+
+.logo {
+    margin-top: -0.3125rem;
+    width: 7rem;
+}
+
+.user-name {
+    padding: 1.875rem;
+    color: whitesmoke;
+}
+
+.saida {
+    margin-top: 3.125rem;
+    margin-left: 15.625rem;
+    width: 34.375rem;
+    height: 34.375rem;
+    border-radius: 1.25rem;
+}
+
+::placeholder {
+    font-size: xx-large;
+}
+
+.entrada-div {
+    margin-top: 2.5rem;
+    margin-left: 8rem;
+}
+
+.entrada {
+    width: 84rem;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    height: 3rem;
+    background-color: #839DEB;
+    border-radius: 1rem;
+    border-color: blueviolet;
+}
+
+#send--question {
+    width: 3.75rem;
+    height: 3.75rem;
+    background-color: #839DEB;
+    border-radius: 50%;
+}
+
+.enter {
+    width: 40px;
+}
